@@ -18,4 +18,4 @@ Countdown Timer
 - JavaScript
    
   
-</h2> 🚀 Como usar ?</h2>
+<h2> 🚀 Como usar ?</h2>
