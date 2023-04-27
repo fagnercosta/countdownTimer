@@ -8,7 +8,7 @@ Countdown Timer
 </h1>
 
 
-<p> Countdown Timer  uma página de coming soon para o lançamento de um site, produto ou serviço, e na página deve ter um countdown timer informando quanto tempo falta para o lançamento.:
+<p> Countdown Timer  é uma página de coming soon para o lançamento de um site, produto ou serviço, nesta tem um countdown timer informando quanto tempo falta para o lançamento.:
 
 <h2>🚀 Techs </h2>
 
