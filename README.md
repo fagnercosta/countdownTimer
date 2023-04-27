@@ -1,20 +1,21 @@
 
 
 <h1 align="center">
-<img src="https://github.com/fagnercosta/Foodfy-FINAL/blob/main/public/img/chef.png?raw=true"/>
+<img src="https://github.com/fagnercosta/countdownTimer/blob/main/img/projeto.png?raw=true"/>
   
 
 Countdown Timer 
 </h1>
 
 
-<p> Foodfy é um site de receitas desenvolvido com as tecnologias:
+<p> Countdown Timer  uma página de coming soon para o lançamento de um site, produto ou serviço, e na página deve ter um countdown timer informando quanto tempo falta para o lançamento.:
 
-- [Node.js](https://nodejs.org/en/) 
-- [PostgreSQL](https://www.postgresql.org/)
-- [Nunjucks](https://mozilla.github.io/nunjucks/)
-- [Faker.js](https://github.com/marak/Faker.js/)
-- [Mailtrap](https://mailtrap.io)
+<h2>🚀 Techs </h2>
+
+
+- HTML
+- CSS
+- JavaScript
    
   
-<p>  </h2>Como usar ?</h2>
+<h2> 🚀 Como usar ?</h2>
