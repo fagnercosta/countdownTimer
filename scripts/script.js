@@ -5,6 +5,7 @@ const secondsText = document.querySelector("#seconds");
 const modalOverlay = document.querySelector('.modal-overlay');
 const closeModal = document.querySelector('.close-modal');
 const buttonSubscribe = document.querySelector("#btnSubscrible");
+const buttonCancel = document.querySelector(".btn_cancelar");
 
 const departureDate = new Date('31 Dec 2023');
 
@@ -29,7 +30,7 @@ function processCountDown(){
 }
 
 function format(value){
-    return value < 10 ? `0${value}` : value;
+    return value < 10 ? `0${value}`: value;
 }
 
 function renderCountdown(data){
@@ -47,3 +48,9 @@ closeModal.addEventListener("click", ()=>{
 buttonSubscribe.addEventListener("click", ()=>{
     modalOverlay.classList.toggle('active');
 });
+
+buttonCancel.addEventListener("click",()=>{
+    modalOverlay.classList.toggle('active');
+})
+
+
