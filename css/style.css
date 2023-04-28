@@ -19,6 +19,7 @@ body{
     display: flex;
     flex-direction: column;
     height: 100vh;
+    min-height: 400px;
 }
 
 header{
@@ -138,6 +139,7 @@ footer > img{
     margin: 20vh auto;
     position: relative;
     border-radius: 10px;
+    min-height: 400px;
 }
 
  .modal-content{
@@ -146,6 +148,10 @@ footer > img{
     align-items: center;
     padding: 30px;
     column-gap: 40px;
+
+    min-height: 400px;
+
+    
 
  }
 
@@ -182,6 +188,18 @@ fom{
     margin-bottom: 10px;
  }
 
+ .btn_save{
+    display: block;
+    min-width: 100%;
+    padding: 10px;
+    background: var(--purple);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    text-align: center;
+ }
+
 
  .form_actions{
     display: flex;
@@ -204,7 +222,7 @@ fom{
 
  
 
- form input[type="submit"]:hover{
+ form a:hover{
     cursor: pointer;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
  }
@@ -232,6 +250,8 @@ input[type="email"]:focus{
 
 .modal .btn_cancelar:hover{
     cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
 }
 
 .modal .close-modal:hover{
@@ -264,7 +284,11 @@ input[type="email"]:focus{
     }
 
     .modal-content{
+
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
     }
 
     .modal-content img{
@@ -275,6 +299,13 @@ input[type="email"]:focus{
         background-color: white;
         width: 90%;
         height: 50%;
+        
+    }
+
+    .form_actions{
+        margin-top:30px;
+        
+        justify-content: center;
         
     }
 }
@@ -301,14 +332,56 @@ input[type="email"]:focus{
 
     .modal-content{
         flex-direction: column;
+        
     }
 
-    
+    .form_actions{
+        margin-top:30px;
+        
+        justify-content: center;
+        
+    }
 
     .modal-content img{
         visibility: hidden;
     }
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
+	.content{
+        flex-direction: column-reverse;
+    }
+
+    .image img{
+        width: 100%;
+    }
+
+    .clock{
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+
+    .modal{
+        min-width: 60%;
+    }
+
+    .modal-content{
+        flex-direction: column;
+        
+    }
+
+    .form_actions{
+        margin-top:30px;
+        
+        justify-content: center;
+        
+    }
+
+    .modal-content img{
+        visibility: hidden;
+    }
+}
+
 
 
 
